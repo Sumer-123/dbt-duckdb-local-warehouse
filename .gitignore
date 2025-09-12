@@ -1,0 +1,15 @@
+# dbt artifacts
+logs/
+target/
+dbt_packages/
+
+# DuckDB database file
+*.db
+
+# Python virtual environment
+venv/
+.venv/
+
+# Python artifacts
+__pycache__/
+*.pyc

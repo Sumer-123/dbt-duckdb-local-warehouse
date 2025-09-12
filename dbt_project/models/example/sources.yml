@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: raw
+    tables:
+      - name: raw_sales
+        columns:
+          - name: order_id
+            tests:
+              - unique
+              - not_null
